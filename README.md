@@ -1,4 +1,31 @@
-# Dental Clinic - Final - Backend I
+# Dental Clinic - Final Project - Backend I
+
+The system administers a dental clinic that implements a business architecture in layers with dependency injections.
+
+Layers are divided in:
+- Presentation layer: through controllers using Spring Boot MVC framework. It contains a small part of frontend to test the view of dentists that allows APIs’ invocation for their administration.
+- Business layer: where the service classes were developed with a mapping to decouple data access from the view.
+- ORM data access layer: are the repository classes that are responsible for accessing the database. In this case, it was used H2 Database for more practicality.
+- Business feature classes: are the Java classes of the system modelled through object-oriented paradigm.
+
+The system possesses a login done with Spring Security, exceptions’ handling for certain CRUD methods with a logging messages thanks to Log4j for posterior help in troubleshooting and unit tests to keep the correct functioning of the software. Junit and Postman were the chosen tools for testing.
+
+## List of used tools: 
+- Maven for libraries and frameworks.
+- Spring Boot | Spring Data – Hibernate/JPA | Spring Security.
+- MVC Pattern.
+- H2 Database.
+- Log4j.
+- JUnit | Postman.
+- Jackson Databind.
+- ORM.
+- HQL.
+- Exceptions
+- HTML | JS.
+
+### ESPAÑOL
+
+# Clínica Dental - Proyecto Final - Backend I
 
 Sistema que administra una clínica dental, la cual fue desarrollada a través de sprints. Implementa una arquitectura empresarial en capas y con inyección de dependencias.
 
@@ -12,17 +39,13 @@ Posee un login hecho con Spring Security, manejo de excepciones para ciertos mé
 
 ## Lista de herramientas utilizadas: 
 - Maven para librerías y frameworks.
-- Spring Boot.
+- Spring Boot | Spring Data – Hibernate/JPA | Spring Security.
 - Patrón MVC.
-- Spring Data – Hibernate/JPA.
-- Spring Security.
 - H2 Database.
 - Log4j.
-- JUnit.
-- Postman.
+- JUnit | Postman.
 - Jackson Databind.
 - ORM.
 - HQL.
-- Lombok.
-- Excepciones.
-- HTML y JS.
+- Exceptions
+- HTML | JS.
