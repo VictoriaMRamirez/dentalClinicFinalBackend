@@ -10,7 +10,12 @@ Layers are divided in:
 
 The system possesses a login done with Spring Security, exceptions’ handling for certain CRUD methods with a logging messages thanks to Log4j for posterior help in troubleshooting and unit tests to keep the correct functioning of the software. Junit and Postman were the chosen tools for testing.
 
-## List of used tools: 
+## Login:
+- URL: localhost8081/login.
+- Username: victoria.
+- Password: victoria.
+
+### List of used tools: 
 - Maven for libraries and frameworks.
 - Spring Boot | Spring Data – Hibernate/JPA | Spring Security.
 - MVC Pattern.
@@ -37,7 +42,12 @@ Las capas se encuentran divididas en:
 
 Posee un login hecho con Spring Security, manejo de excepciones para ciertos métodos CRUD con un logueo en Log4j para su posterior ayuda en troubleshooting y testeos unitarios para mantener el correcto funcionamiento. Se utilizó JUnit y Postman especialmente para las consultas de las APIs.
 
-## Lista de herramientas utilizadas: 
+## Acceso:
+- URL: localhost8081/login.
+- Usuario: victoria.
+- Contraseña: victoria.
+
+### Lista de herramientas utilizadas: 
 - Maven para librerías y frameworks.
 - Spring Boot | Spring Data – Hibernate/JPA | Spring Security.
 - Patrón MVC.
